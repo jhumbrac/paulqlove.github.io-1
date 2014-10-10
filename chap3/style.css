@@ -1,11 +1,7 @@
 body {
-
-	
-	background-color: #525A6A;
-	z-index: 1;
-
+	background: url{"projectAssets/images/background.jpg" no-repeat cover;
 	}
-.background {
+/* .background {
 	background-image: url("projectAssets/images/background.jpg");
 	position: absolute;
 	bottom: 0px;
@@ -15,43 +11,28 @@ body {
 	z-index: -1;
 
 
-}
+} */
 .bannerStripe {
 	background-image: url("projectAssets/images/stripes.png");
+	background-repeat: repeat-x;
 	height: 13px;
 	width: 100%;
 	position: absolute;
-	z-index: 1;
 	top: 0;
 	left: 0;
+	z-index: 1;
 	
 	}
-
-a {
-	margin-left: 100px;
-}
-
-h1 {
-	margin-left: 100px;
-}
-
 hr {
 	width: 75px;
-	margin-left: 100px;
 	border: 1px solid #ff7070;
-
 }
-
 p {
-	font-family:  "Lucida Sans Unicode";
+	font-family:  "Lucida Sans Unicode", sans-serif;
 	color: #ffffff;
-	margin-left: 100px;
-	letter-spacing: 2px;
 	font-size: 25px;
-	
-	
 }
 
 #landing {
-	margin-top: 400px;
+	margin:400px 0 0 100px;
 }
